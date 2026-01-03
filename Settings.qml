@@ -1,4 +1,4 @@
-settings                                                                                    import QtQuick 2.15
+import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Controls.Material 2.15
 import QtQuick.Layouts 1.15
@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.15
 Rectangle {
     property string pageTitle: "⚙ Settings"
 
-    // PROFESSIONAL SETTINGS GRADIENT
+    
     Rectangle {
         anchors.fill: parent
         gradient: Gradient {
@@ -31,7 +31,7 @@ Rectangle {
         spacing: 25
         z: 10
 
-        // PROFILE SECTION
+        
         Label {
             text: "Account Settings"
             font.pixelSize: 26
